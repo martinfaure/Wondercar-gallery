@@ -1,0 +1,64 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	display: flex;
+}
+
+nav {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	margin: 10px;
+	width: 500px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.my {
+	color: white;
+	padding: 10%;
+	border-radius: 10px;
+	background-color: rgb(106, 106, 206);
+	flex-grow: 1;
+}
+
+.home {
+	color: white;
+	padding: 10%;
+	border-radius: 10px;
+	background-color: rgb(207, 81, 81);
+	flex-grow: 2;
+}
+
+.about {
+	color: white;
+	padding: 10%;
+	border-radius: 10px;
+	background-color: rgb(106, 106, 206);
+	flex-grow: 1;
+}
+
+.images {
+	position: relative;
+	align-content: center;
+	display: flex;
+	height: 150px;
+	width: 50px;
+	margin: 200px;
+	padding: 1rem;
+	flex-direction: row;
+	gap: 10px;
+}
+.bouton {
+	position: relative;
+	align-content: center;
+	display: flex;
+	color: white;
+	background-color: rgb(106, 106, 206);
+}
